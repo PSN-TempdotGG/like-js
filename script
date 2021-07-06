@@ -1,0 +1,23 @@
+Open their twitter link
+Press F12
+Open the Console
+CTRL+C and CTRL+V the code below
+Press ENTER and enjoy
+
+
+
+setInterval(() => {
+  for (const d of document.querySelectorAll('div[data-testid="like"]')) {
+    d.click()
+  }
+  window.scrollTo(0, document.body.scrollHeight)
+}, 1000)
+
+
+
+
+
+
+//////////////////////////////////////////////////////////
+
+Keep in mind that Twitter has its like limit.
